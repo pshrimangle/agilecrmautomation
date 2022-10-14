@@ -12,6 +12,7 @@ public class LoginAgileCrmTestCase extends BaseClass{
 	 LoginPage loginpage=new LoginPage();
 	 loginpage.login("Test@Test1234", "Test1234");
 	 loginpage.login("2648%#$$@1234", "#^#^#^%$$");
+	 loginpage.login("2648%#$$@1234", "#^#^#^%$$");
 
 	}
 
